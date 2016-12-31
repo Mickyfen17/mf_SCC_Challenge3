@@ -49,10 +49,10 @@ header {
 }
 
 .nav-header {
-  margin: 8px 0;
+  margin: 15px 0 0px 0px;
   font-size: 0.75em;
   text-align: center;
-  color: #9698a5;
+  color: #919cae;
 }
 
 .nav-image {
@@ -64,4 +64,9 @@ header {
 .nav-content-headers {
   color: #9698a5;
   display: none;
+}
+
+.nav-main,
+.nav-admin {
+  border-bottom: 2px solid black;
 }
