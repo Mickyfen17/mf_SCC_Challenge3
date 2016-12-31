@@ -60,3 +60,8 @@ header {
   width: 30px;
   margin: 15px auto;
 }
+
+.nav-content-headers {
+  color: #9698a5;
+  display: none;
+}
