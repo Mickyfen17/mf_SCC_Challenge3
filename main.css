@@ -52,11 +52,11 @@ header {
   margin: 8px 0;
   font-size: 0.65em;
   text-align: center;
-  color: #FFF;
+  color: #9698a5;
 }
 
 .nav-image {
   display: block;
-  width: 20px;
-  margin: 0 auto;
+  width: 25px;
+  margin: 10px auto;
 }
