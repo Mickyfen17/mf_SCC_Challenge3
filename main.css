@@ -4,6 +4,35 @@ html {
   background: aqua;
 }
 
+header {
+  height: 45px;
+  margin: -8px;
+  border-bottom: 1px solid gray;
+  background: #FFF;
+}
+
 .search-icons {
   width: 25px;
+}
+
+.left-icon {
+  float: left;
+  margin: 8px 8px 0 4px;
+}
+
+.search-box {
+  width: 180px;
+  height: 43px;
+  border: none;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+.search-icons-right {
+  float: right;
+  margin: 8px 4px 0 0;
+}
+
+.search-icons-right .search-icons {
+  margin-left: 4px;
 }
