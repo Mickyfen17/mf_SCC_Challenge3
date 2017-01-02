@@ -48,6 +48,26 @@ header {
   background: #354052;
 }
 
+.nav-thumbnail {
+  display: none;
+  border-bottom: 2px solid black;
+}
+
+.thumbnail-image {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 15px auto 0 auto;
+  background: white;
+}
+
+.thumbnail-header {
+  text-align: center;
+  margin: 8px 0 15px 0;
+  color: #9698a5;
+}
+
 .nav-header {
   margin: 15px 0 0px 0px;
   font-size: 0.75em;
@@ -72,16 +92,17 @@ header {
   border-bottom: 2px solid black;
 }
 
-
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
   header {
-    width: 78%;
-    margin-left: 22%;
+    margin-left: 125px;
   }
   #left-nav {
     top: 0;
     width: 125px;
+  }
+  .nav-thumbnail {
+    display: block;
   }
   .nav-header {
     text-align: left;
