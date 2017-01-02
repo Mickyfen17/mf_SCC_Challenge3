@@ -16,6 +16,13 @@ header {
   width: 25px;
 }
 
+.left-arrow {
+  display: none;
+  position: relative;
+  top: 17px;
+  float: left;
+  width: 10px;
+}
 .left-icon {
   float: left;
   margin: 10px 8px 0 8px;
@@ -99,6 +106,13 @@ header {
 @media screen and (min-width: 550px) {
   header {
     margin-left: 125px;
+  }
+  .left-arrow {
+    display: block;
+    margin-left: 4px;
+  }
+  .left-icon {
+    margin: 10px 8px 0 0;
   }
   #left-nav {
     top: 0;
