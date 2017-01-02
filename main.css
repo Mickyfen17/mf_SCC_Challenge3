@@ -9,7 +9,7 @@ html {
  /*HEADER & SEARCH CONTENT*/
 header {
   height: 45px;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid #d3d3d3;
   background: #FFF;
 }
 
@@ -34,8 +34,8 @@ header {
   height: 43px;
   padding-left: 5px;
   border: none;
-  border-right: 1px solid lightgrey;
-  border-left: 1px solid lightgrey;
+  border-right: 1px solid #d3d3d3;
+  border-left: 1px solid #d3d3d3;
 }
 
 .search-icons-right {
@@ -159,6 +159,44 @@ header {
 
 .location-text span {
   color: #16a4fa;
+}
+
+.buttons {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.open-button {
+  background: transparent url(images/open_dot.svg) no-repeat 11px 8px / 10px;
+  vertical-align: top;
+  width: 70px;
+  height: 30px;
+  padding-left: 16px;
+  border: 2px solid #d3d3d3;
+  border-radius: 32%;
+  text-align: center;
+  color: #9698a5;
+  font-weight: 700;
+}
+
+.sm-button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: 2px solid #d3d3d3;
+  border-radius: 50%;
+}
+
+.bookmark-button {
+  background: transparent url(images/bookmark.svg) no-repeat 6px 6px / 15px;
+}
+
+.pencil-button {
+  background: transparent url(images/pencil.svg) no-repeat 7px 5px / 15px;
+}
+
+.trash-button {
+  background: transparent url(images/trash.svg) no-repeat 6px 5px / 15px;
 }
 
 /*MEDIA QUERIES*/
