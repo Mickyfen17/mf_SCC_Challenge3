@@ -43,7 +43,7 @@ header {
   position: fixed;
   top: 45px;
   left: 0px;
-  width: 13%;
+  width: 42px;
   height: 100%;
   background: #354052;
 }
@@ -75,16 +75,26 @@ header {
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
+  header {
+    width: 78%;
+    margin-left: 22%;
+  }
   #left-nav {
+    top: 0;
     width: 125px;
+  }
+  .nav-header {
+    text-align: left;
+    margin: 15px 0 8px 8px;
   }
   .nav-image {
     display: inline-block;
-    margin: 5px;
+    width: 15px;
+    margin: 0 8px 0 8px;
   }
   .nav-content-headers {
     display: inline-block;
     width: 50%;
-    margin: 0;
+    margin: 12px 0;
   }
 }
