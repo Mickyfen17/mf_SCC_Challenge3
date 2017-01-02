@@ -43,7 +43,7 @@ header {
   position: fixed;
   top: 45px;
   left: 0px;
-  width:42px;
+  width: 13%;
   height: 100%;
   background: #354052;
 }
@@ -62,11 +62,29 @@ header {
 }
 
 .nav-content-headers {
-  color: #9698a5;
   display: none;
+  font-size: 0.6em;
+  color: #9698a5;
 }
 
 .nav-main,
 .nav-admin {
   border-bottom: 2px solid black;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 550px) {
+  #left-nav {
+    width: 125px;
+  }
+  .nav-image {
+    display: inline-block;
+    margin: 5px;
+  }
+  .nav-content-headers {
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+  }
 }
