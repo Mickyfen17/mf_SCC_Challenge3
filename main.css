@@ -5,6 +5,7 @@ html {
   font-family: 'Roboto', sans-serif;
   background: #edf2f6;
 }
+
  /*HEADER & SEARCH CONTENT*/
 header {
   height: 45px;
@@ -102,6 +103,26 @@ header {
   border-bottom: 2px solid black;
 }
 
+.categories-header {
+  display: none;
+}
+
+.checkbox {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: 12px auto 0 auto;
+}
+
+.checkbox-titles {
+  display: none;
+  width: 65%;
+  margin: 0 0 10px 0;
+  color: #9698a5;
+  font-size: 0.6em;
+  font-weight: 400;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
   header {
@@ -134,5 +155,18 @@ header {
     display: inline-block;
     width: 50%;
     margin: 12px 0;
+  }
+  .categories-header {
+    display: block;
+    margin:
+  }
+  .checkbox {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 10px;
+  }
+  .checkbox-titles {
+    display: inline-block;
   }
 }
