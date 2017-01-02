@@ -131,10 +131,12 @@ header {
 
 .header-wrapper {
   padding-top: 1px;
+  border-bottom: 2px solid #d3d3d3;
   background: #FFF;
 }
 
 .main-body-header {
+  margin: 10px 0;
   text-align: center;
   font-size: 1.2em;
   font-weight: 400;
@@ -163,7 +165,7 @@ header {
 
 .buttons {
   text-align: center;
-  margin: 10px 0;
+  margin: 15px 0;
 }
 
 .open-button {
@@ -197,6 +199,22 @@ header {
 
 .trash-button {
   background: transparent url(images/trash.svg) no-repeat 6px 5px / 15px;
+}
+
+.tabs {
+  text-align: center;
+}
+
+.tab-titles {
+  display: inline-block;
+  margin: 10px 2px;
+  color: #9698a5;
+}
+
+.selected {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #16a4fa;
+  color: black;
 }
 
 /*MEDIA QUERIES*/
