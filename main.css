@@ -47,7 +47,7 @@ header {
   margin-left: 4px;
 }
 
-/*NAV CONTENT*/
+/*LEFT NAV CONTENT*/
 #left-nav {
   position: fixed;
   top: 45px;
@@ -123,6 +123,44 @@ header {
   font-weight: 400;
 }
 
+/*MAIN BODY CONTENT*/
+
+.main-body {
+  margin-left: 42px;
+}
+
+.header-wrapper {
+  padding-top: 1px;
+  background: #FFF;
+}
+
+.main-body-header {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.current-location {
+  text-align: center;
+}
+
+.location-image {
+  display: inline-block;
+  width: 15px;
+}
+
+.location-text {
+  display: inline-block;
+  margin: 0;
+  font-size: 0.65em;
+  font-weight: 400;
+  color: #9698a5;
+}
+
+.location-text span {
+  color: #16a4fa;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
   header {
@@ -168,5 +206,8 @@ header {
   }
   .checkbox-titles {
     display: inline-block;
+  }
+  .main-body {
+    margin-left: 125px;
   }
 }
