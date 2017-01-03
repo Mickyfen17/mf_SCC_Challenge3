@@ -130,6 +130,7 @@ header {
 }
 
 .header-wrapper {
+  position: relative;
   padding-top: 1px;
   border-bottom: 2px solid #d3d3d3;
   background: #FFF;
@@ -265,5 +266,35 @@ header {
   }
   .main-body {
     margin-left: 125px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .main-body-header,
+  .current-location {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  .buttons {
+    top: 18px;
+    right: 0px;
+    position: absolute;
+  }
+  .tab-titles {
+    margin: 0 5px;
+  }
+  .tabs-top,
+  .tabs-bottom {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .tabs {
+    text-align: left;
+  }
+  .tab-titles {
+    margin: 0 22px;
   }
 }
