@@ -8,6 +8,9 @@ html {
 
  /*HEADER & SEARCH CONTENT*/
 header {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
   height: 45px;
   border-bottom: 1px solid #d3d3d3;
   background: #FFF;
@@ -49,7 +52,7 @@ header {
 
 /*LEFT NAV CONTENT*/
 #left-nav {
-  position: absolute;;
+  position: fixed;
   top: 45px;
   left: 0px;
   width: 42px;
@@ -137,7 +140,7 @@ header {
 }
 
 .main-body-header {
-  margin: 10px 0;
+  margin: 60px 0 10px 0;
   text-align: center;
   font-size: 1.2em;
   font-weight: 400;
@@ -257,6 +260,14 @@ header {
   .left-icon {
     margin: 10px 8px 0 0;
   }
+  .search-box {
+    width: 48%;
+  }
+  .search-icons-right {
+    position: absolute;
+    top: 0;
+    right: 125px;
+  }
   #left-nav {
     top: 0;
     width: 125px;
@@ -298,14 +309,18 @@ header {
 }
 
 @media screen and (min-width: 650px) {
-  .main-body-header,
+  .main-body-header {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
   .current-location {
     text-align: left;
     margin-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
   .buttons {
-    top: 18px;
+    top: 62px;
     right: 0px;
     position: absolute;
   }
