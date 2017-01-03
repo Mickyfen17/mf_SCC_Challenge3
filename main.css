@@ -127,7 +127,6 @@ header {
 }
 
 /*MAIN BODY CONTENT*/
-
 .main-body {
   margin-left: 42px;
 }
@@ -230,10 +229,31 @@ header {
   margin-top: 15px;
 }
 
-.loading-image {
-  display: block;
+.loading-image-block {
+  position: relative;
   width: 150px;
-  margin:0 auto 15px auto;
+  margin: 0 auto 20px auto;
+  color: #9698a5;
+}
+
+.graph-inner-titles {
+  position: absolute;
+  top: 30%;
+  left: 23%;
+  text-align: center;
+}
+
+.forwards {
+  left: 27%;
+}
+
+.graph-inner-titles h4 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.graph-inner-titles h5 {
+  margin: 0;
 }
 
 .loading-button {
