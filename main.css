@@ -351,6 +351,13 @@ header {
   .tabs-bottom {
     display: inline-block;
   }
+  .loading-images-wrapper {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .loading-image-block {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 900px) {
