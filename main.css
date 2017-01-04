@@ -223,11 +223,11 @@ header {
 
 /*GRAPH CONTENT*/
 .graph-content {
-  margin-left: 42px;
+  margin: 30px 0 0 42px;
 }
 
 .loading-images-wrapper {
-  margin-top: 15px;
+  max-width: 518px;
 }
 
 .loading-image-block {
@@ -361,12 +361,14 @@ header {
     display: inline-block;
   }
   .loading-images-wrapper {
-    margin: 30px 0;
-    text-align: center;
+    margin: 0 auto 30px auto;
   }
   .loading-image-block {
     display: inline-block;
     margin: 0 10px;
+  }
+  .loading-button {
+    margin: 20px auto;
   }
   .graph-placeholder {
     width: 500px;
@@ -380,5 +382,18 @@ header {
   }
   .tab-titles {
     margin: 0 22px;
+  }
+  .loading-images-wrapper {
+    display: inline-block;
+    width: 67%;
+    margin: 0 0 30px 0;
+  }
+  .bar-graph-wrapper {
+    display: inline-block;
+  }
+  .graph-placeholder {
+    width: 32%;
+    height: 150px;
+    max-width: 500px;
   }
 }
