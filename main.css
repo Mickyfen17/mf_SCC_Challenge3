@@ -239,13 +239,13 @@ header {
 
 .graph-inner-titles {
   position: absolute;
-  top: 30%;
-  left: 23%;
+  top: 32%;
+  left: 28%;
   text-align: center;
 }
 
 .forwards {
-  left: 27%;
+  left: 30%;
 }
 
 .graph-inner-titles h4 {
@@ -367,6 +367,14 @@ header {
   .loading-image-block {
     display: inline-block;
     margin: 0 10px;
+    width: 150px;
+  }
+  .graph-inner-titles {
+    top: 30%;
+    left: 24%;
+  }
+  .forwards {
+    left: 28%;
   }
   .loading-button {
     margin: 20px auto;
@@ -384,6 +392,9 @@ header {
   .tab-titles {
     margin: 0 22px;
   }
+  .graph-content {
+    text-align: center;
+  }
   .loading-images-wrapper {
     display: inline-block;
     width: 67%;
@@ -392,6 +403,7 @@ header {
   .bar-graph-wrapper {
     display: inline-block;
     width: 32%;
+    margin: 0 1%
   }
   .graph-placeholder {
     width: 100%;
