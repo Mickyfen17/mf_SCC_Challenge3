@@ -269,10 +269,11 @@ header {
 }
 
 .graph-placeholder {
+  display: block;
   width: 90%;
   min-width: 250px;
-  max-width: 400px;
-  height: 125px;
+  max-width: 350px;
+  height: 150px;
   margin: 0 auto 20px auto;
   background: #FFF;
 }
@@ -390,10 +391,12 @@ header {
   }
   .bar-graph-wrapper {
     display: inline-block;
+    width: 32%;
   }
   .graph-placeholder {
-    width: 32%;
+    width: 100%;
     height: 150px;
     max-width: 500px;
+    margin: 0;
   }
 }
