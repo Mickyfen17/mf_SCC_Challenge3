@@ -285,18 +285,56 @@ header {
 }
 
 .job-description-wrapper {
-  width: 90%;
+  width: 98%;
   background: #FFF;
 }
 
-.jd-inner-main-title {
+.jd-description-inner-title {
   background: #6f7e95;
+  color: #FFF;
+}
+
+.jd-inner-main-title {
+  display: inline-block;
+  margin: 20px 0 20px 8px;
+}
+
+.main-title-button {
+  border: 0;
+  background: #9698a5;
+  height: 24px;
+  width: 44px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.jd-inner-content {
+  width: 95%;
+  margin: 0 auto;
+  border-bottom: 1px solid #9698a5;
+}
+
+.jd-inner-title {
+  text-transform: uppercase;
+  color: #6f7e95;
+}
+
+.jd-inner-description {
+  margin-bottom: 10px;
+  color: #9698a5;
 }
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
-  header {
+  header,
+  .main-body,
+  .graph-content {
     margin-left: 125px;
+  }
+  .job-description {
+    margin-left: 133px;
   }
   .left-arrow {
     display: block;
@@ -346,10 +384,6 @@ header {
   }
   .checkbox-titles {
     display: inline-block;
-  }
-  .main-body,
-  .graph-content {
-    margin-left: 125px;
   }
 }
 
