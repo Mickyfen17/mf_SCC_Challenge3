@@ -281,11 +281,12 @@ header {
 /*JOB DESCRIPTION SECTION*/
 
 .job-description {
-  margin: 30px 0 0 50px;
+  margin: 30px 0 30px 42px;
 }
 
 .job-description-wrapper {
-  width: 98%;
+  width: 96%;
+  margin: 0 auto;
   background: #FFF;
 }
 
@@ -297,17 +298,19 @@ header {
 .jd-inner-main-title {
   display: inline-block;
   margin: 20px 0 20px 8px;
+  text-transform: uppercase;
 }
 
 .main-title-button {
   border: 0;
-  background: #9698a5;
+  background: #9698a5 url(images/pencil_white.svg) no-repeat 6px 3px / 15px;
   height: 24px;
-  width: 44px;
-  text-transform: uppercase;
-  color: #FFF;
-  font-weight: 700;
+  width: 55px;
   margin-left: 10px;
+  padding-left: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFF;
 }
 
 .jd-inner-content {
@@ -318,23 +321,33 @@ header {
 
 .jd-inner-title {
   text-transform: uppercase;
+  text-decoration: underline;
   color: #6f7e95;
 }
 
 .jd-inner-description {
+  width: 65%;
   margin-bottom: 10px;
+  font-size: 0.8em;
+  font-weight: 700;
   color: #9698a5;
+}
+
+.jd-last {
+  border-bottom: none;
+}
+
+.description-title {
+  vertical-align: top;
 }
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
   header,
   .main-body,
-  .graph-content {
-    margin-left: 125px;
-  }
+  .graph-content,
   .job-description {
-    margin-left: 133px;
+    margin-left: 125px;
   }
   .left-arrow {
     display: block;
@@ -431,6 +444,15 @@ header {
   .graph-placeholder {
     width: 500px;
     height: 200px;
+  }
+  .jd-inner-title {
+    display: inline-block;
+    width: 150px;
+    text-decoration: none;
+  }
+
+  .jd-inner-description {
+    display: inline-block;
   }
 }
 
