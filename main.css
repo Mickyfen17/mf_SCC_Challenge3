@@ -281,7 +281,7 @@ header {
 /*JOB DESCRIPTION SECTION*/
 
 .job-description {
-  margin: 30px 0 30px 42px;
+  margin: 30px 0 0 42px;
 }
 
 .job-description-wrapper {
@@ -340,6 +340,34 @@ header {
 
 .description-title {
   vertical-align: top;
+}
+
+/*LINKS SECTION*/
+
+.links-section {
+  margin: 30px 0 0 42px;
+}
+
+.soc-media {
+  display: block;
+  width: 96%;
+  height: 35px;
+  max-width: 300px;
+  margin: 15px auto;
+  border: none;
+  color: #FFF;
+}
+
+.facebook-btn {
+  background: #3b5998 url(images/facebook_logo.svg) no-repeat 10px 10px / 15px;
+}
+
+.twitter-btn {
+  background: #00aced url(images/twitter_logo.svg) no-repeat 10px 10px / 15px;
+}
+
+.linkedin-btn {
+  background: #007bb6 url(images/linkedin_logo.svg) no-repeat 10px 10px / 15px;
 }
 
 /*MEDIA QUERIES*/
