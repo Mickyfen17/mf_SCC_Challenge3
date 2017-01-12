@@ -370,12 +370,56 @@ header {
   background: #007bb6 url(images/linkedin_logo.svg) no-repeat 10px 10px / 15px;
 }
 
+.links-widgets {
+  width: 96%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #9698a5;
+}
+
+#last-widget {
+  border: none;
+}
+
+.links-widgets input {
+  width: 170px;
+  height: 35px;
+  border: none;
+  padding: 0 0 0 10px;
+  color: #6f7e95;
+}
+
+#email-input {
+  width: 220px;
+}
+
+.links-widgets button {
+  width: 50px;
+  height: 35px;
+  margin-left: -4px;
+  border: none;
+  padding: 0;
+  color: #FFF;
+  background: #49b8be;
+}
+
+.links-widgets h3 {
+  color: #6f7e95;
+}
+
+.links-widgets p {
+  font-size: 0.8em;
+  color: #9698a5;
+}
+
 /*MEDIA QUERIES*/
 @media screen and (min-width: 550px) {
   header,
   .main-body,
   .graph-content,
-  .job-description {
+  .job-description,
+  .links-section {
     margin-left: 125px;
   }
   .left-arrow {
