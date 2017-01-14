@@ -405,11 +405,24 @@ header {
 
 .links-widgets h3 {
   color: #6f7e95;
+  padding-left: 24px;
 }
 
 .links-widgets p {
   font-size: 0.8em;
   color: #9698a5;
+}
+
+#link-to-job-header {
+  background: transparent url(images/world.svg) no-repeat 0px 2px / 18px;;
+}
+
+#use-button-widget-header {
+  background: transparent url(images/widget.svg) no-repeat 0px 2px / 18px;;
+}
+
+#upload-by-email-header {
+  background: transparent url(images/paper_plane.svg) no-repeat 0px 2px / 18px;;
 }
 
 /*MEDIA QUERIES*/
