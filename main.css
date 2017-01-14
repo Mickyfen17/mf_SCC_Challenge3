@@ -378,6 +378,7 @@ header {
 }
 
 #last-widget {
+  margin-bottom: 30px;
   border: none;
 }
 
@@ -576,12 +577,15 @@ header {
   .graph-placeholder {
     width: 100%;
     height: 150px;
-    max-width: 500px;
-    margin: 0;
+    max-width: 400px;
+    margin: 0 auto;
   }
   .job-description {
     display: inline-block;
     width: 55%;
+  }
+  #detailed-job-description {
+    min-height: 105px;
   }
   .links-section {
     display: inline-block;
