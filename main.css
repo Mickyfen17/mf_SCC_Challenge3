@@ -1,6 +1,5 @@
 body,
 html {
-  height: 100%;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background: #edf2f6;
@@ -352,7 +351,7 @@ header {
   display: block;
   width: 96%;
   height: 35px;
-  max-width: 300px;
+  max-width: 400px;
   margin: 15px auto;
   border: none;
   color: #FFF;
@@ -372,7 +371,7 @@ header {
 
 .links-widgets {
   width: 96%;
-  max-width: 300px;
+  max-width: 400px;
   margin: 0 auto;
   padding-bottom: 30px;
   border-bottom: 1px solid #9698a5;
@@ -546,11 +545,12 @@ header {
   }
   .graph-content {
     text-align: center;
+    margin-bottom: 20px;
   }
   .loading-images-wrapper {
     display: inline-block;
     width: 65%;
-    margin: 0 0 30px 0;
+    margin: 0;
   }
   .loading-image-block {
     margin: 0 5px;
@@ -567,16 +567,19 @@ header {
     margin: 0;
   }
   .job-description {
-    width: 60%;
+    display: inline-block;
+    width: 55%;
   }
   .links-section {
-    width: 27%;
-    float: right;
+    display: inline-block;
+    width: 30%;
+    margin: 0;
   }
   .soc-media-wrapper {
     flex-direction: column;
   }
   .soc-media {
     width: 98%;
+    margin: 6px auto 0 auto;
   }
 }
