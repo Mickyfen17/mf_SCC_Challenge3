@@ -335,6 +335,7 @@ header {
 }
 
 .jd-last {
+  padding-bottom: 6px;
   border-bottom: none;
 }
 
@@ -342,6 +343,18 @@ header {
   vertical-align: top;
 }
 
+#hiring-lead-image {
+  display: inline-block;
+  width: 40px;
+  border-radius: 50%;
+}
+
+#hiring-lead-description {
+  display: inline-block;
+  width: 70%;
+  margin-left: 6px;
+  vertical-align: bottom;
+}
 /*LINKS SECTION*/
 
 .links-section {
@@ -542,6 +555,14 @@ header {
   .jd-inner-description {
     display: inline-block;
     width: 65%;
+  }
+  #hiring-lead-image {
+    vertical-align: middle;
+  }
+  #hiring-lead-description {
+    width: 50%;
+    margin-left: 10px;
+    vertical-align: middle;
   }
   .soc-media-wrapper {
     display: flex;
