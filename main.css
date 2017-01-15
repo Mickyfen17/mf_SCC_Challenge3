@@ -448,7 +448,7 @@ header {
   .search-icons-right {
     position: absolute;
     top: 0;
-    right: 125px;
+    right: 128px;
   }
   #left-nav {
     top: 0;
@@ -551,6 +551,12 @@ header {
 }
 
 @media screen and (min-width: 900px) {
+  .search-icons-right {
+    right: 135px;
+  }
+  .buttons {
+    right: 15px;
+  }
   .tabs {
     text-align: left;
   }
