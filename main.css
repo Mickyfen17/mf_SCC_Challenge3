@@ -99,6 +99,7 @@ header {
   display: none;
   font-size: 0.6em;
   color: #9698a5;
+  text-transform: uppercase;
 }
 
 .nav-main,
@@ -183,6 +184,7 @@ header {
   text-align: center;
   color: #9698a5;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .sm-button {
@@ -213,6 +215,7 @@ header {
   display: inline-block;
   margin: 10px 2px;
   color: #9698a5;
+  text-transform: uppercase;
 }
 
 .selected {
@@ -255,6 +258,7 @@ header {
 
 .graph-inner-titles h5 {
   margin: 0;
+  text-transform: uppercase;
 }
 
 .loading-button {
